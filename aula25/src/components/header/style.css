@@ -1,0 +1,43 @@
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+nav{
+    width: 60%;  
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    
+}
+
+li{
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover{
+    color: red;
+}
+
+a[href]{
+    list-style: none;
+    text-decoration: none;
+}
+
